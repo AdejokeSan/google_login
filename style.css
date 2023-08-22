@@ -118,4 +118,14 @@ body{
         margin-left: 5rem;
         height:40px;
     }
+    .container .input-control input:focus ~ label,
+.container .input-control input:valid ~ label,
+.container .input-control input:not([value=""]) ~ label {
+    top: -0.4rem;
+    left: 9px;
+    font-size: 10px;
+}
+.container .input-control label{
+    font-size: 10px;
+}
 }
