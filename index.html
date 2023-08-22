@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="imgs/google logo.webp" alt="">
+        <h2>sign in</h2>
+        <p>Use a Google account</p>
+        <form action="#" id="form">
+            <div class="input-control">
+                <input type="email" name="email" required value="" onkeyup="this.setAttribute('value',this.value);">
+                <label for="email">E-mail address or Phone</label>
+            </div>
+            <div class="input-control">
+                <input id="password" type="password" name="password" required value="" onkeyup="this.setAttribute('value',this.value);">
+                <label for="password">Password</label>
+            </div>
+            <div class="show">
+                <label class="showPassword">
+                  <input type="checkbox" id="show"> 
+                  Show Password
+              </label>
+            </div>
+            <div class="other">
+                <a href="#" class="btn">Forgot your password?</a>
+            </div>
+            <input type="submit" name="Sign-in" value="Sign-in">
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
